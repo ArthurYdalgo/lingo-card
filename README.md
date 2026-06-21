@@ -8,7 +8,11 @@ In this current version, this app is meant for a portuguese native speaker learn
 
 There's a workflow meant to deploy the application to a github pages, like this one: https://arthurydalgo.github.io/lingo-card
 
-You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from a branch" and switch it to "Github Actions"). You can uncomment the part that makes the deployment run when something is pushed into the main branch, if you want.  
+You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from a branch" and switch it to "Github Actions"). You can uncomment the part that makes the deployment run when something is pushed into the main branch, if you want.
+
+## vite.config.js
+
+Change the "lingo-card" to the name of the repo when you fork it.
 
 # Customizing the App
 
