@@ -229,17 +229,6 @@ export default function App() {
         const savedNew = localStorage.getItem("fc-favorites");
         if (savedNew) return JSON.parse(savedNew);
 
-        // 2. MIGRATION: Check for the old Italian-only format
-        const savedOld = localStorage.getItem("ita-pt-favorites");
-        if (savedOld) {
-            try {
-                const parsedOld = JSON.parse(savedOld);
-                return { it: parsedOld }; // Migrate to new multi-language structure under Italian
-            } catch (e) {
-                console.error("Failed to migrate old favorites", e);
-            }
-        }
-
         return {};
     });
 
