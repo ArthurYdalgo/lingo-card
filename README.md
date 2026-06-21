@@ -17,6 +17,12 @@ In this current version, the app is configured for a Portuguese native speaker l
 
 ---
 
+## 🛠 Prerequisites
+
+To run it locally, ensure you have **Node.js** (v18+ recommended) installed on your machine.
+
+---
+
 ## 🚀 Running the App Locally
 
 To run the app locally, you can use the following commands:
