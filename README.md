@@ -1,12 +1,12 @@
 # Flashcards App
 
-This is meant to be a customizable flashcards app that you as a developer can clone and modify to your liking. Depending on your/your users' native language and languages they're studying.
+This is a customizable flashcards app that you as a developer can clone/fork and modify to your liking. Depending on your/your users' native language and the languages they're studying.
 
 In this current version, this app is meant for a portuguese native speaker learning italian. You can customize it to your needs by changing the `src/i18n.js`, `src/config.js` and `data.js` files. You might also need to add a flag svg in the `public` folder and import it in the `src/config.js` file.
 
 # Using pages
 
-There's a workflow meant to deploy the application to a github pages, like this one: https://arthurydalgo.github.io/lingo-card
+There's a workflow in `.github/workflows/deploy.yml` meant to deploy the application to [GitHub Pages](https://pages.github.com/), like this one: https://arthurydalgo.github.io/lingo-card
 
 You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from a branch" and switch it to "Github Actions"). You can uncomment the part that makes the deployment run when something is pushed into the main branch, if you want.
 
