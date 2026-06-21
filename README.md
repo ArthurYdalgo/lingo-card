@@ -17,17 +17,6 @@ In this current version, the app is configured for a Portuguese native speaker l
 
 ---
 
-## 🛠 Tech Stack & Prerequisites
-
-* **Framework:** React (Functional Components, Hooks)
-* **Build Tool:** Vite
-* **Styling:** Custom CSS with minimalist inline SVGs
-
-**Prerequisites:**
-Ensure you have **Node.js** (v18+ recommended) installed on your machine.
-
----
-
 ## 🚀 Running the App Locally
 
 To run the app locally, you can use the following commands:
