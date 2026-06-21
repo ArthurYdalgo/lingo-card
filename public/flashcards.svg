@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Bottom Gray Card -->
+  <g transform="translate(300, 310) rotate(60)">
+    <rect x="-90" y="-130" width="180" height="260" rx="24" fill="#c7c7c7" />
+  </g>
+
+  <!-- Middle Gray Card -->
+  <g transform="translate(290, 240) rotate(25)">
+    <rect x="-90" y="-130" width="180" height="260" rx="24" fill="#c7c7c7" stroke="#ffffff" stroke-width="14" stroke-linejoin="round" />
+  </g>
+
+  <!-- Top Blue Card -->
+  <g transform="translate(190, 200) rotate(-12)">
+    <rect x="-90" y="-130" width="180" height="260" rx="24" fill="#61bed6" stroke="#ffffff" stroke-width="14" stroke-linejoin="round" />
+  </g>
+</svg>
