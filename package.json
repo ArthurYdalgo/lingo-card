@@ -1,5 +1,5 @@
 {
-  "name": "it-flashcards",
+  "name": "lingo-card",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "publish": "vite build && surge dist http://flashcards-italian-portugues.surge.sh"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.6",

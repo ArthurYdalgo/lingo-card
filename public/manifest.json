@@ -1,6 +1,6 @@
 {
-  "name": "Flashcards",
-  "short_name": "Flashcards",
+  "name": "LingoCard",
+  "short_name": "LingoCard",
   "start_url": "/lingo-card/",
   "display": "standalone",
   "background_color": "#aaaaaa",

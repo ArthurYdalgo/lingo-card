@@ -1,4 +1,4 @@
-# Flashcards App
+# LingoCard App
 
 This is a customizable flashcards app that you as a developer can clone/fork and modify to your liking. Depending on your/your users' native language and the languages they're studying.
 
