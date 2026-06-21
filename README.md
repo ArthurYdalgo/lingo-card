@@ -12,17 +12,17 @@ You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from 
 
 ## vite.config.js
 
-Change the "lingo-card" to the name of the repo when you fork it. You'll also need to change it in the `public/manifest.json` file
+Change the "lingo-card" to the name of the repo when you fork it. You'll also need to change it in the `public/manifest.json` file (as mentioned below)
 
 # Manifest file
 
-You can modify the `public/manifest.json` file to fit your needs. Also change the `lingo-card` to the name of your repo (in case you're using GitHub pages). This is used in case you want to create a better experience for PWAs.
+You can modify the `public/manifest.json` file to fit your needs, like changing `name`, `short_name`, etc. You should also change the `lingo-card` to the name of your repo (in case you're using GitHub Pages). This is used in case you want to create a better experience for PWAs.
 
 # Customizing the App
 
 ## src/i18n.js
 
-This app you may add your own labels to ui elements.
+Here you can change the translations for the ui elements. You can add as many languages as you want, just make sure to add the corresponding language code in the `src/config.js` file.
 
 ## src/config.js
 
@@ -41,7 +41,7 @@ Here you may change:
 ## data.js
 
 ### The  `const categories` variable
-Over here you'll define the categories in the native language, like "Airport", or "Aeroporto", etc...
+Over here you'll define the categories in the native language, like `"Airport"`, or `"Aeroporto"`, etc...
 
 ### The `const words` variable
 
@@ -93,4 +93,16 @@ export const words = [
     },
     // more words...
 ]
+```
+
+# Running the app locally
+
+To run the app locally, you can use the following commands:
+
+```bash
+# Install dependencies
+npm install
+
+# Run the app in development mode
+npm run dev
 ```
