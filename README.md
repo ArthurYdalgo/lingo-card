@@ -4,6 +4,18 @@ This is a customizable flashcards app that you as a developer can clone/fork and
 
 In this current version, this app is meant for a portuguese native speaker learning italian. You can customize it to your needs by changing the `src/i18n.js`, `src/config.js` and `data.js` files. You might also need to add a flag svg in the `public` folder and import it in the `src/config.js` file.
 
+# Running the app locally
+
+To run the app locally, you can use the following commands:
+
+```bash
+# Install dependencies
+npm install
+
+# Run the app in development mode
+npm run dev
+```
+
 # Using pages
 
 There's a workflow in `.github/workflows/deploy.yml` meant to deploy the application to [GitHub Pages](https://pages.github.com/), like this one: https://arthurydalgo.github.io/lingo-card
@@ -93,16 +105,4 @@ export const words = [
     },
     // more words...
 ]
-```
-
-# Running the app locally
-
-To run the app locally, you can use the following commands:
-
-```bash
-# Install dependencies
-npm install
-
-# Run the app in development mode
-npm run dev
 ```
