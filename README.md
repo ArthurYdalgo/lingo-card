@@ -12,7 +12,11 @@ You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from 
 
 ## vite.config.js
 
-Change the "lingo-card" to the name of the repo when you fork it.
+Change the "lingo-card" to the name of the repo when you fork it. You'll also need to change it in the `public/manifest.json` file
+
+# Manifest file
+
+You can modify the `public/manifest.json` file to fit your needs. Also change the `lingo-card` to the name of your repo (in case you're using GitHub pages). This is used in case you want to create a better experience for PWAs.
 
 # Customizing the App
 
