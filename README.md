@@ -34,13 +34,13 @@ You can modify the `public/manifest.json` file to fit your needs, like changing 
 
 ## src/i18n.js
 
-Here you can change the translations for the ui elements. You can add as many languages as you want, just make sure to add the corresponding language code in the `src/config.js` file.
+Here you can change the translations for the ui elements. Make sure to add the corresponding language code in the `src/config.js` file, as the `uiLanguage` variable.
 
 ## src/config.js
 
 Here you may change:
 
-- uiLanguage: the language code for the `i18n.js` translations to use for the ui elements
+- uiLanguage: the language code for the `i18n.js` translations to use for the ui elements (as mentioned above)
 - nativeDataKey: the key in the `words` variable in `data.js` that corresponds to the native language
 - targetLanguages
     - code: the language code for the target language (which should be the same as the key in the `words` variable in `data.js`)
