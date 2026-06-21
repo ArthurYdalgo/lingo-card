@@ -1,7 +1,5 @@
 # Flashcards App
 
-![Flashcards App Banner/Screenshot](docs/screenshot-placeholder.png) *(Consider adding a screenshot of your app here)*
-
 This is a customizable, Progressive Web App (PWA) flashcards application that you, as a developer, can clone/fork and modify to your liking. Depending on your (or your users') native language and the languages they are studying, this app provides a robust, interactive way to practice vocabulary and sentences.
 
 In this current version, the app is configured for a Portuguese native speaker learning Italian. You can seamlessly customize it to your needs by changing the `src/i18n.js`, `src/config.js`, and `src/data.js` files.
