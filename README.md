@@ -4,6 +4,12 @@ This is meant to be a customizable flashcards app that you as a developer can cl
 
 In this current version, this app is meant for a portuguese native speaker learning italian. You can customize it to your needs by changing the `src/i18n.js`, `src/config.js` and `data.js` files. You might also need to add a flag svg in the `public` folder and import it in the `src/config.js` file.
 
+# Using pages
+
+There's a workflow meant to deploy the application to a github pages, like this one: https://arthurydalgo.github.io/lingo-card
+
+You'll have to enable it in your Repo's Settings > Pages (click on "Deploy from a branch" and switch it to "Github Actions"). You can uncomment the part that makes the deployment run when something is pushed into the main branch, if you want.  
+
 # Customizing the App
 
 ## src/i18n.js
