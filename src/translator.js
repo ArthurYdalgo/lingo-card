@@ -14,8 +14,8 @@ const INSTANCE_ID = crypto.randomBytes(6).toString('hex');
 const SOURCE_LANG = "pt"; 
 const SOURCE_LANG_NAME = "Portuguese"; 
 
-const DEST_LANG = "en"; 
-const DEST_LANG_NAME = "English"; 
+const DEST_LANG = "es"; 
+const DEST_LANG_NAME = "Spanish"; 
 // ---------------------
 
 function getOllamaModels() {

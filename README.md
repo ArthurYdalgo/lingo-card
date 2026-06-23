@@ -105,6 +105,35 @@ export const words = [
 
 ---
 
+### Local LLM translation (Optional)
+
+In case you want to add a new language to the data.js, you may modify and run the `src/translator.js`. Look for the `--- CONFIGURATION ---` section, and choose which of the existing language it will translate from and to which new language.
+
+The script works by iterating over every word and making short prompts to translate the word, the pronunciation, and the example sentences, instead of asking for a full rebuild of the js file. This is to avoid hitting the token limit of the LLM. For every translated object of the words list, it will create a `data.partial.${modelName}.${randomHash}.${timestamp}.js` file, and keep the latest 5 ones. That way if the process is interrupted, you can resume from the last partial file and no progress will be lost. In the end a `data.added.${modelName}.${randomHash}.js` file will be created which you can (and should) check for any errors or missing translations before you overwrite the `data.js` file with it.
+
+> [!WARNING]  
+> LLMs are not perfect, and can (and most likely will) make mistakes. You should always check the output of the translation before using it in your app to prevent it from inadvertently teaching your users incorrect translations.
+
+#### Pre-requisites
+
+You must have ollama running on you machine. Then pull a model (if you haven't done it already) with
+
+```bash
+ollama pull gemma3:12b
+```
+
+The model may be a different one that you see prefer. This was the one used to translate from portuguese to english.
+
+#### Using the `src/translator.js` script
+
+ Then run the script with:
+
+```bash
+node src/translator.js
+```
+
+It will list all the ollama models you have installed and ask you to choose one.
+
 ## 🌍 Deployment & PWA Setup
 
 ### GitHub Pages Setup
