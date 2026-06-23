@@ -741,12 +741,12 @@ export const words = [
                 "pt": "Eu gostaria de um assento no corredor."
             },
             {
-                "en": "The cart is going down the hallway",
+                "en": "The cart is going down the aisle",
                 "it": "Il carrello sta passando nel corridoio.",
                 "pt": "O carrinho está passando no corredor."
             },
             {
-                "en": "Do not leave bags in the hallway",
+                "en": "Do not leave bags in the aisle",
                 "it": "Non lasciare borse nel corridoio.",
                 "pt": "Não deixe bolsas no corredor."
             }
@@ -900,7 +900,7 @@ export const words = [
         "en": "dog",
         "pronunciation": {
             "it": "ca-ne",
-            "en": "dog d-a-g"
+            "en": "d-a-g"
         },
         "examples": [
             {
@@ -1016,7 +1016,7 @@ export const words = [
         },
         "examples": [
             {
-                "en": "The cat chases the mouse",
+                "en": "The cat chases the rat",
                 "it": "Il gatto insegue il topo.",
                 "pt": "O gato persegue o rato."
             },
@@ -2169,12 +2169,12 @@ export const words = [
                 "pt": "Ele usa a lâmina de barbear para fazer a barba."
             },
             {
-                "en": "I bought a disposable razor",
+                "en": "I bought a disposable razor blade",
                 "it": "Ho comprato un rasoio usa e getta.",
                 "pt": "Comprei um barbeador descartável."
             },
             {
-                "en": "Be careful with the blade",
+                "en": "Be careful with the razor blade",
                 "it": "Fai attenzione con il rasoio.",
                 "pt": "Tome cuidado com a lâmina."
             }
@@ -2360,12 +2360,12 @@ export const words = [
         },
         "examples": [
             {
-                "en": "Turn off the faucet while brushing your teeth",
+                "en": "Turn off the tap while brushing your teeth",
                 "it": "Chiudi il rubinetto mentre ti lavi i denti.",
                 "pt": "Feche a torneira enquanto escova os dentes."
             },
             {
-                "en": "The faucet is leaking water",
+                "en": "The tap is leaking water",
                 "it": "Il rubinetto perde acqua.",
                 "pt": "A torneira está vazando água."
             },
@@ -2780,17 +2780,17 @@ export const words = [
         },
         "examples": [
             {
-                "en": "I put the book on the bedside table",
+                "en": "I put the book on the nightstand.",
                 "it": "Metto il libro sul comodino.",
                 "pt": "Coloco o livro no criado-mudo."
             },
             {
-                "en": "The bedside table is next to the bed",
+                "en": "The nightstand is next to the bed.",
                 "it": "Il comodino è accanto al letto.",
                 "pt": "O criado-mudo fica ao lado da cama."
             },
             {
-                "en": "There's a lamp on the bedside table",
+                "en": "There's a lamp on the nightstand.",
                 "it": "C'è una lampada sul comodino.",
                 "pt": "Há uma luminária no criado-mudo."
             }
@@ -3910,7 +3910,7 @@ export const words = [
                 "pt": "As crianças adoram refrigerante de laranja."
             },
             {
-                "en": "Could you bring me a bitter orange juice, please?",
+                "en": "Could you bring me a bitter orange soda, please?",
                 "it": "Mi porti un'aranciata amara, per favore?",
                 "pt": "Pode me trazer uma laranja amarga, por favor?"
             }
@@ -5683,7 +5683,7 @@ export const words = [
     {
         "id": "cat7_22",
         "category": "Carro",
-        "pt": "seta (pisca-alerta)",
+        "pt": "seta",
         "it": "freccia",
         "en": "turn signal",
         "pronunciation": {
@@ -6542,7 +6542,7 @@ export const words = [
                 "pt": "Compre as passagens na bilheteria."
             },
             {
-                "en": "There's a long line at the ticket booth",
+                "en": "There's a long line at the ticket office.",
                 "it": "C'è molta fila in biglietteria.",
                 "pt": "Há muita fila na bilheteria."
             }
@@ -7970,7 +7970,7 @@ export const words = [
                 "pt": "A seleção nacional veste azul celeste."
             },
             {
-                "en": "The clear sky is azure blue",
+                "en": "The clear sky is sky blue.",
                 "it": "Il cielo sereno è azzurro.",
                 "pt": "O céu limpo é azul celeste."
             }
@@ -9034,9 +9034,9 @@ export const words = [
                 "pt": "Gostaria de um par de luvas."
             },
             {
-                "en": "We'll see each other in a couple (few) hours",
-                "it": "Ci vediamo tra un paio d'ore.",
-                "pt": "Nos vemos daqui a um par (umas) horas."
+                "en": "I need a new pair of glasses.",
+                "it": "Ho bisogno di un nuovo paio di occhiali.",
+                "pt": "Preciso de um novo par de óculos."
             }
         ]
     },
