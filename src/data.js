@@ -32148,7 +32148,7 @@ export const words = [
         "en": "pen",
         "pronunciation": {
             "it": "pen-na",
-            "en": "pen pen"
+            "en": "pen"
         },
         "examples": [
             {
