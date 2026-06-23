@@ -27332,7 +27332,7 @@ export const words = [
         "en": "spend",
         "pronunciation": {
             "it": "spen-de-re",
-            "en": "spend sp-end"
+            "en": "spend"
         },
         "examples": [
             {
