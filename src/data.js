@@ -27752,7 +27752,7 @@ export const words = [
         "en": "month",
         "pronunciation": {
             "it": "me-ze",
-            "en": "m-uh nth"
+            "en": "muh-nth"
         },
         "examples": [
             {
@@ -27836,7 +27836,7 @@ export const words = [
         "en": "march",
         "pronunciation": {
             "it": "mar-tso",
-            "en": "march ma-rsh"
+            "en": "march"
         },
         "examples": [
             {
@@ -28872,7 +28872,7 @@ export const words = [
         "en": "ten",
         "pronunciation": {
             "it": "die-tchi",
-            "en": "ten ten"
+            "en": "ten"
         },
         "examples": [
             {
@@ -29432,7 +29432,7 @@ export const words = [
         "en": "train",
         "pronunciation": {
             "it": "tre-no",
-            "en": "train trein"
+            "en": "trein"
         },
         "examples": [
             {
@@ -30300,7 +30300,7 @@ export const words = [
         "en": "god",
         "pronunciation": {
             "it": "Di-o",
-            "en": "god g-ah-d"
+            "en": "g-ah-d"
         },
         "examples": [
             {
@@ -30384,7 +30384,7 @@ export const words = [
         "en": "mass",
         "pronunciation": {
             "it": "mes-sa",
-            "en": "mass mahs"
+            "en": "mahs"
         },
         "examples": [
             {
@@ -30412,7 +30412,7 @@ export const words = [
         "en": "priest",
         "pronunciation": {
             "it": "pre-te",
-            "en": "priest prai-st"
+            "en": "pri-st"
         },
         "examples": [
             {
@@ -30468,7 +30468,7 @@ export const words = [
         "en": "pray",
         "pronunciation": {
             "it": "pre-ga-re",
-            "en": "pray prei"
+            "en": "prei"
         },
         "examples": [
             {
@@ -30580,7 +30580,7 @@ export const words = [
         "en": "saint",
         "pronunciation": {
             "it": "san-to",
-            "en": "saint seint"
+            "en": "seint"
         },
         "examples": [
             {
@@ -30636,7 +30636,7 @@ export const words = [
         "en": "sin",
         "pronunciation": {
             "it": "pec-ca-to",
-            "en": "sin s-in"
+            "en": "s-in"
         },
         "examples": [
             {
@@ -31140,7 +31140,7 @@ export const words = [
         "en": "stop",
         "pronunciation": {
             "it": "stop",
-            "en": "stop stap"
+            "en": "stap"
         },
         "examples": [
             {
@@ -31336,7 +31336,7 @@ export const words = [
         "en": "crosswalk",
         "pronunciation": {
             "it": "stris-xe pe-do-na-li",
-            "en": "krahs-wol k"
+            "en": "krahs-wolk"
         },
         "examples": [
             {
@@ -32288,7 +32288,7 @@ export const words = [
         "en": "desk",
         "pronunciation": {
             "it": "ban-co",
-            "en": "desk desh-k"
+            "en": "des-k"
         },
         "examples": [
             {
@@ -32316,7 +32316,7 @@ export const words = [
         "en": "chair",
         "pronunciation": {
             "it": "sé-dia",
-            "en": "chair tr"
+            "en": "tchér"
         },
         "examples": [
             {
@@ -32372,7 +32372,7 @@ export const words = [
         "en": "test",
         "pronunciation": {
             "it": "e-za-me",
-            "en": "test t-est"
+            "en": "t-est"
         },
         "examples": [
             {
@@ -33044,7 +33044,7 @@ export const words = [
         "en": "snow",
         "pronunciation": {
             "it": "ne-ve",
-            "en": "snow / snoe"
+            "en": "snoe"
         },
         "examples": [
             {
@@ -33072,7 +33072,7 @@ export const words = [
         "en": "sun",
         "pronunciation": {
             "it": "so-le",
-            "en": "sun s-uhn"
+            "en": "s-uhn"
         },
         "examples": [
             {
@@ -33100,7 +33100,7 @@ export const words = [
         "en": "wind",
         "pronunciation": {
             "it": "ven-to",
-            "en": "wind w-i-n-d"
+            "en": "wind"
         },
         "examples": [
             {
@@ -33128,7 +33128,7 @@ export const words = [
         "en": "leaf",
         "pronunciation": {
             "it": "fo-lha",
-            "en": "leaf leef"
+            "en": "leef"
         },
         "examples": [
             {
@@ -33520,7 +33520,7 @@ export const words = [
         "en": "storm",
         "pronunciation": {
             "it": "tem-pes-ta",
-            "en": "storm st-orm"
+            "en": "st-orm"
         },
         "examples": [
             {
@@ -34472,7 +34472,7 @@ export const words = [
         "en": "store",
         "pronunciation": {
             "it": "ne-gò-tsio",
-            "en": "stor uh"
+            "en": "stor-uh"
         },
         "examples": [
             {
@@ -35816,7 +35816,7 @@ export const words = [
         "en": "map",
         "pronunciation": {
             "it": "map-pa",
-            "en": "map map"
+            "en": "map"
         },
         "examples": [
             {
@@ -35956,7 +35956,7 @@ export const words = [
         "en": "souvenir",
         "pronunciation": {
             "it": "su-ve-nir",
-            "en": "suh-ve-neer / suh-vuh-neer"
+            "en": "suh-vuh-neer"
         },
         "examples": [
             {
@@ -36348,7 +36348,7 @@ export const words = [
         "en": "run",
         "pronunciation": {
             "it": "cor-sa",
-            "en": "run r-uh n"
+            "en": "r-uhn"
         },
         "examples": [
             {
@@ -36432,7 +36432,7 @@ export const words = [
         "en": "ski",
         "pronunciation": {
             "it": "xi",
-            "en": "ski sk-ee"
+            "en": "sk-ee"
         },
         "examples": [
             {
@@ -36572,7 +36572,7 @@ export const words = [
         "en": "train",
         "pronunciation": {
             "it": "al-le-nar-si",
-            "en": "train tre"
+            "en": "trein"
         },
         "examples": [
             {
@@ -36600,7 +36600,7 @@ export const words = [
         "en": "team",
         "pronunciation": {
             "it": "scua-dra",
-            "en": "team tee-am"
+            "en": "tee-am"
         },
         "examples": [
             {
@@ -36768,7 +36768,7 @@ export const words = [
         "en": "match",
         "pronunciation": {
             "it": "par-ti-ta",
-            "en": "match mat-sh"
+            "en": "mat-sh"
         },
         "examples": [
             {
@@ -36796,7 +36796,7 @@ export const words = [
         "en": "win",
         "pronunciation": {
             "it": "vin-tche-re",
-            "en": "win win"
+            "en": "win"
         },
         "examples": [
             {
@@ -37216,7 +37216,7 @@ export const words = [
         "en": "noon",
         "pronunciation": {
             "it": "med-dzo-djor-no",
-            "en": "noon nun"
+            "en": "nun"
         },
         "examples": [
             {
@@ -37720,7 +37720,7 @@ export const words = [
         "en": "soon",
         "pronunciation": {
             "it": "tra po-co",
-            "en": "soon s-oon"
+            "en": "s-oon"
         },
         "examples": [
             {
@@ -37748,7 +37748,7 @@ export const words = [
         "en": "past",
         "pronunciation": {
             "it": "pas-sa-to",
-            "en": "past pa-st"
+            "en": "pa-st"
         },
         "examples": [
             {
@@ -37832,7 +37832,7 @@ export const words = [
         "en": "trip",
         "pronunciation": {
             "it": "viad-djo",
-            "en": "trip tr-ip"
+            "en": "tr-ip"
         },
         "examples": [
             {
@@ -38000,7 +38000,7 @@ export const words = [
         "en": "map",
         "pronunciation": {
             "it": "map-pa",
-            "en": "map mah-p"
+            "en": "mah-p"
         },
         "examples": [
             {
@@ -38672,7 +38672,7 @@ export const words = [
         "en": "and",
         "pronunciation": {
             "it": "e",
-            "en": "and uh-nd"
+            "en": "end"
         },
         "examples": [
             {
@@ -38784,7 +38784,7 @@ export const words = [
         "en": "if",
         "pronunciation": {
             "it": "se",
-            "en": "if ih-f"
+            "en": "ih-f"
         },
         "examples": [
             {
@@ -39176,7 +39176,7 @@ export const words = [
         "en": "where",
         "pronunciation": {
             "it": "do-ve",
-            "en": "wer-uh r"
+            "en": "wer-uh"
         },
         "examples": [
             {
@@ -39232,7 +39232,7 @@ export const words = [
         "en": "how",
         "pronunciation": {
             "it": "co-me",
-            "en": "how hao"
+            "en": "hao"
         },
         "examples": [
             {
@@ -39372,7 +39372,7 @@ export const words = [
         "en": "that",
         "pronunciation": {
             "it": "cuel-lo",
-            "en": "dat / thaet"
+            "en": "thaet"
         },
         "examples": [
             {
@@ -39428,7 +39428,7 @@ export const words = [
         "en": "bad",
         "pronunciation": {
             "it": "cat-ti-vo",
-            "en": "bad / b-aed"
+            "en": "b-aed"
         },
         "examples": [
             {
@@ -39456,7 +39456,7 @@ export const words = [
         "en": "big",
         "pronunciation": {
             "it": "gran-de",
-            "en": "big b-ig"
+            "en": "b-ig"
         },
         "examples": [
             {
@@ -40212,7 +40212,7 @@ export const words = [
         "en": "leek",
         "pronunciation": {
             "it": "por-ro",
-            "en": "leek leek"
+            "en": "leek"
         },
         "examples": [
             {
@@ -40520,7 +40520,7 @@ export const words = [
         "en": "sun",
         "pronunciation": {
             "it": "so-le",
-            "en": "sun s-uhn"
+            "en": "s-uhn"
         },
         "examples": [
             {
@@ -40576,7 +40576,7 @@ export const words = [
         "en": "snow",
         "pronunciation": {
             "it": "ne-ve",
-            "en": "snow s-noh"
+            "en": "s-noh"
         },
         "examples": [
             {
@@ -40604,7 +40604,7 @@ export const words = [
         "en": "wind",
         "pronunciation": {
             "it": "ven-to",
-            "en": "wind w-ih-nd"
+            "en": "w-ih-nd"
         },
         "examples": [
             {
@@ -40660,7 +40660,7 @@ export const words = [
         "en": "storm",
         "pronunciation": {
             "it": "tem-pes-ta",
-            "en": "storm st-orm"
+            "en": "st-orm"
         },
         "examples": [
             {
@@ -40800,7 +40800,7 @@ export const words = [
         "en": "ice",
         "pronunciation": {
             "it": "ghiat-tcho",
-            "en": "ice / ais"
+            "en": "ais"
         },
         "examples": [
             {
@@ -40828,7 +40828,7 @@ export const words = [
         "en": "frost",
         "pronunciation": {
             "it": "djé-lo",
-            "en": "frost frohst"
+            "en": "frohst"
         },
         "examples": [
             {
@@ -41822,7 +41822,7 @@ export const words = [
         "en": "go",
         "pronunciation": {
             "it": "an-da-re",
-            "en": "go goo"
+            "en": "gow"
         },
         "examples": [
             {
@@ -42326,7 +42326,7 @@ export const words = [
         "en": "look/watch",
         "pronunciation": {
             "it": "guar-da-re",
-            "en": "luk wok"
+            "en": "luk"
         },
         "examples": [
             {
@@ -42389,7 +42389,7 @@ export const words = [
         "en": "put",
         "pronunciation": {
             "it": "met-te-re",
-            "en": "put p-uht"
+            "en": "p-uht"
         },
         "examples": [
             {
@@ -42641,7 +42641,7 @@ export const words = [
         "en": "bring/take",
         "pronunciation": {
             "it": "por-ta-re",
-            "en": "bring b-ring take tay-k"
+            "en": "b-ring / tay-k"
         },
         "examples": [
             {
@@ -42767,7 +42767,7 @@ export const words = [
         "en": "seem",
         "pronunciation": {
             "it": "sem-bra-re",
-            "en": "seem sim"
+            "en": "sim"
         },
         "examples": [
             {
@@ -43397,7 +43397,7 @@ export const words = [
         "en": "use",
         "pronunciation": {
             "it": "u-za-re",
-            "en": "jooz / juz"
+            "en": "iuz"
         },
         "examples": [
             {
@@ -43586,7 +43586,7 @@ export const words = [
         "en": "like",
         "pronunciation": {
             "it": "pia-tche-re",
-            "en": "laik / la-ik"
+            "en": "la-ik"
         },
         "examples": [
             {
@@ -43964,7 +43964,7 @@ export const words = [
         "en": "sleep",
         "pronunciation": {
             "it": "dor-mi-re",
-            "en": "sleep slii-p"
+            "en": "slii-p"
         },
         "examples": [
             {
@@ -44153,7 +44153,7 @@ export const words = [
         "en": "ask",
         "pronunciation": {
             "it": "quie-de-re",
-            "en": "ask / a-sk"
+            "en": "a-sk"
         },
         "examples": [
             {
@@ -44468,7 +44468,7 @@ export const words = [
         "en": "start",
         "pronunciation": {
             "it": "co-min-tcha-re",
-            "en": "start st-art"
+            "en": "st-art"
         },
         "examples": [
             {
@@ -44783,7 +44783,7 @@ export const words = [
         "en": "run",
         "pronunciation": {
             "it": "cor-re-re",
-            "en": "run r-uhn"
+            "en": "r-uhn"
         },
         "examples": [
             {
@@ -45917,7 +45917,7 @@ export const words = [
         "en": "lend",
         "pronunciation": {
             "it": "pres-ta-re",
-            "en": "lend l-end"
+            "en": "l-end"
         },
         "examples": [
             {
@@ -46295,7 +46295,7 @@ export const words = [
         "en": "manage",
         "pronunciation": {
             "it": "riu-xi-re",
-            "en": "man-ij-uh / man-ijdj"
+            "en": "man-ijdj"
         },
         "examples": [
             {
@@ -46673,7 +46673,7 @@ export const words = [
         "en": "stop",
         "pronunciation": {
             "it": "fer-ma-re",
-            "en": "stop st-ahp"
+            "en": "st-ahp"
         },
         "examples": [
             {
@@ -47051,7 +47051,7 @@ export const words = [
         "en": "promise",
         "pronunciation": {
             "it": "pro-met-te-re",
-            "en": "prom-is pro-mis / prom-iss"
+            "en": "prom-iss"
         },
         "examples": [
             {
@@ -47114,7 +47114,7 @@ export const words = [
         "en": "pull/throw",
         "pronunciation": {
             "it": "ti-ra-re",
-            "en": "pul-p / throh"
+            "en": "pull / throh"
         },
         "examples": [
             {
@@ -47177,7 +47177,7 @@ export const words = [
         "en": "push",
         "pronunciation": {
             "it": "spin-dje-re",
-            "en": "push p-sh"
+            "en": "puh-sh"
         },
         "examples": [
             {
@@ -47240,7 +47240,7 @@ export const words = [
         "en": "sing",
         "pronunciation": {
             "it": "can-ta-re",
-            "en": "sing s-ih-ng"
+            "en": "s-ih-ng"
         },
         "examples": [
             {
