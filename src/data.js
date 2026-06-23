@@ -47366,7 +47366,7 @@ export const words = [
         "en": "jump",
         "pronunciation": {
             "it": "sal-ta-re",
-            "en": "jump jmp"
+            "en": "jmp"
         },
         "examples": [
             {
@@ -47429,7 +47429,7 @@ export const words = [
         "en": "ring",
         "pronunciation": {
             "it": "suo-na-re",
-            "en": "ring r-ing"
+            "en": "r-ing"
         },
         "examples": [
             {
@@ -47632,7 +47632,7 @@ export const words = [
         "en": "to",
         "pronunciation": {
             "it": "a",
-            "en": "too / tuh"
+            "en": "too"
         },
         "examples": [
             {
@@ -47688,7 +47688,7 @@ export const words = [
         "en": "in",
         "pronunciation": {
             "it": "in",
-            "en": "in in"
+            "en": "in"
         },
         "examples": [
             {
@@ -47716,7 +47716,7 @@ export const words = [
         "en": "with",
         "pronunciation": {
             "it": "con",
-            "en": "with w-ihth"
+            "en": "w-ihth"
         },
         "examples": [
             {
@@ -47856,7 +47856,7 @@ export const words = [
         "en": "you",
         "pronunciation": {
             "it": "tu",
-            "en": "you yoo / yu"
+            "en": "yu"
         },
         "examples": [
             {
@@ -48080,7 +48080,7 @@ export const words = [
         "en": "his/her/its",
         "pronunciation": {
             "it": "su-o / su-a",
-            "en": "hiz / hir / its-uh"
+            "en": "hiz / hur / its"
         },
         "examples": [
             {
@@ -48108,7 +48108,7 @@ export const words = [
         "en": "our",
         "pronunciation": {
             "it": "nos-tro / nos-tra",
-            "en": "our ow-er"
+            "en": "ow-er"
         },
         "examples": [
             {
@@ -48276,7 +48276,7 @@ export const words = [
         "en": "how",
         "pronunciation": {
             "it": "co-me",
-            "en": "how hao"
+            "en": "hao"
         },
         "examples": [
             {
@@ -48332,7 +48332,7 @@ export const words = [
         "en": "to",
         "pronunciation": {
             "it": "al",
-            "en": "too / tuh"
+            "en": "too"
         },
         "examples": [
             {
@@ -48388,7 +48388,7 @@ export const words = [
         "en": "in",
         "pronunciation": {
             "it": "nel",
-            "en": "in in"
+            "en": "in"
         },
         "examples": [
             {
@@ -48472,7 +48472,7 @@ export const words = [
         "en": "to",
         "pronunciation": {
             "it": "al-la",
-            "en": "too / tuh"
+            "en": "too"
         },
         "examples": [
             {
@@ -48528,7 +48528,7 @@ export const words = [
         "en": "in",
         "pronunciation": {
             "it": "nel-la",
-            "en": "in ih-n"
+            "en": "ih-n"
         },
         "examples": [
             {
@@ -48612,7 +48612,7 @@ export const words = [
         "en": "to",
         "pronunciation": {
             "it": "ai",
-            "en": "too / tuh"
+            "en": "too"
         },
         "examples": [
             {
@@ -48668,7 +48668,7 @@ export const words = [
         "en": "in",
         "pronunciation": {
             "it": "nei",
-            "en": "in ih-n"
+            "en": "ih-n"
         },
         "examples": [
             {
@@ -48780,7 +48780,7 @@ export const words = [
         "en": "you",
         "pronunciation": {
             "it": "ti",
-            "en": "you yoo"
+            "en": "yoo"
         },
         "examples": [
             {
@@ -48920,7 +48920,7 @@ export const words = [
         "en": "them",
         "pronunciation": {
             "it": "li",
-            "en": "them dem"
+            "en": "them"
         },
         "examples": [
             {
@@ -48948,7 +48948,7 @@ export const words = [
         "en": "them",
         "pronunciation": {
             "it": "le",
-            "en": "them dem"
+            "en": "them"
         },
         "examples": [
             {
@@ -49004,7 +49004,7 @@ export const words = [
         "en": "that/it/them",
         "pronunciation": {
             "it": "ne",
-            "en": "that that-ihm it it them them-ihm"
+            "en": "that / it / them"
         },
         "examples": [
             {
@@ -49060,7 +49060,7 @@ export const words = [
         "en": "that",
         "pronunciation": {
             "it": "que",
-            "en": "t / dt"
+            "en": "that"
         },
         "examples": [
             {
@@ -49312,7 +49312,7 @@ export const words = [
         "en": "too",
         "pronunciation": {
             "it": "trop-po",
-            "en": "too tuu"
+            "en": "too"
         },
         "examples": [
             {
@@ -49396,7 +49396,7 @@ export const words = [
         "en": "both",
         "pronunciation": {
             "it": "en-tram-bi / en-tram-be",
-            "en": "bo th"
+            "en": "bo-th"
         },
         "examples": [
             {
@@ -49648,7 +49648,7 @@ export const words = [
         "en": "since",
         "pronunciation": {
             "it": "sic-co-me",
-            "en": "sin-s / sins"
+            "en": "sin-s"
         },
         "examples": [
             {
@@ -49704,7 +49704,7 @@ export const words = [
         "en": "although",
         "pronunciation": {
             "it": "seb-be-ne / ben-que",
-            "en": "al-tho/awl-tho uhn"
+            "en": "awl-thou"
         },
         "examples": [
             {
@@ -49816,7 +49816,7 @@ export const words = [
         "en": "nor",
         "pronunciation": {
             "it": "ne-an-que",
-            "en": "nor nor"
+            "en": "nor"
         },
         "examples": [
             {
