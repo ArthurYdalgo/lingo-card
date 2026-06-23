@@ -81,7 +81,6 @@ async function askLLM(prompt, modelName) {
         const data = await response.json();
         let answer = data.message.content.trim();
         
-        // Clean up common LLM formatting quirks
         answer = answer.replace(/^["']|["']$/g, ''); 
         answer = answer.replace(/\.$/, ''); 
         
@@ -113,7 +112,7 @@ async function processWordItem(item, modelName) {
     const translatedWord = await askLLM(wordPrompt, modelName);
     console.log(`  ↳ Word: ${translatedWord}`);
 
-    // 2. Get the pronunciation (TUNED PROMPT)
+    // 2. Get the pronunciation
     const pronPrompt = `Provide a text-to-speech phonetic pronunciation guide for the ${DEST_LANG_NAME} translation: "${translatedWord}". 
 RULES:
 1. Break down words into syllables separated by hyphens (e.g., "air-port").
@@ -124,17 +123,17 @@ RULES:
 6. Hyphens must only go INSIDE words. A word MUST NOT start or end with a hyphen.
 7. Output ONLY the pronunciation guide. Do not include quotes or explanations.`;
     
-    let pronunciation = await askLLM(pronPrompt, modelName);
+    let generatedPronunciation = await askLLM(pronPrompt, modelName);
     
-    // JS Failsafe: Updated to allow spaces (\s) and slashes (/)
-    pronunciation = pronunciation.replace(/[^a-zA-Z-\s/]/g, ''); // Strip everything except letters, hyphens, spaces, slashes
-    pronunciation = pronunciation.replace(/-+/g, '-');          // Deduplicate accidental double hyphens (--)
-    pronunciation = pronunciation.replace(/-\s|\s-/g, ' ');     // Remove hyphens that ended up touching spaces
-    pronunciation = pronunciation.replace(/-\/|\/-/g, '/');     // Remove hyphens that ended up touching slashes
-    pronunciation = pronunciation.replace(/^-+|-+$/g, '');      // Strip leading/trailing hyphens from the whole string
-    pronunciation = pronunciation.replace(/\s+/g, ' ').trim();  // Normalize multiple spaces into a single space
+    // JS Failsafe
+    generatedPronunciation = generatedPronunciation.replace(/[^a-zA-Z-\s/]/g, ''); 
+    generatedPronunciation = generatedPronunciation.replace(/-+/g, '-');          
+    generatedPronunciation = generatedPronunciation.replace(/-\s|\s-/g, ' ');     
+    generatedPronunciation = generatedPronunciation.replace(/-\/|\/-/g, '/');     
+    generatedPronunciation = generatedPronunciation.replace(/^-+|-+$/g, '');      
+    generatedPronunciation = generatedPronunciation.replace(/\s+/g, ' ').trim();  
     
-    console.log(`  ↳ Pronunciation: ${pronunciation}`);
+    console.log(`  ↳ Pronunciation: ${generatedPronunciation}`);
 
     // 3. Process Examples
     let newExamples = [];
@@ -147,25 +146,25 @@ RULES:
             const translatedSentence = await askLLM(sentencePrompt, modelName);
             
             newExamples.push({
-                [DEST_LANG]: translatedSentence,
-                ...ex
+                ...ex, // Keep all existing languages in the example
+                [DEST_LANG]: translatedSentence
             });
             console.log(`  ↳ Example ${i + 1}: ${translatedSentence}`);
         }
     }
 
-    // 4. Reconstruct object
+    // 4. Reconstruct object dynamically for N languages
+    // We separate pronunciation and examples so we can neatly append them at the bottom
+    const { pronunciation, examples, ...baseItemKeys } = item;
+
     const newItem = {
-        id: item.id,
-        category: item.category,
-        pt: item.pt,
-        it: item.it,
-        [DEST_LANG]: translatedWord,
+        ...baseItemKeys,                     // Spreads id, category, pt, it, en, fr, etc.
+        [DEST_LANG]: translatedWord,         // Appends the new language
         pronunciation: {
-            ...item.pronunciation,
-            [DEST_LANG]: pronunciation
+            ...(pronunciation || {}),        // Spreads existing pronunciations
+            [DEST_LANG]: generatedPronunciation
         },
-        examples: newExamples
+        examples: newExamples                // Uses our updated examples array
     };
 
     return newItem;

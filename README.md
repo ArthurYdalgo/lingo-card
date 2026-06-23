@@ -132,7 +132,7 @@ The model may be a different one that you see prefer. This was the one used to t
 node src/translator.js
 ```
 
-It will list all the ollama models you have installed and ask you to choose one.
+It will list all the ollama models you have installed and ask you to choose one. Then just wait for the script to finish running (which took around 8 hours or so in a M3 Macbook Air with 16GB of RAM running a `gemma3:12b` model)
 
 ## 🌍 Deployment & PWA Setup
 
