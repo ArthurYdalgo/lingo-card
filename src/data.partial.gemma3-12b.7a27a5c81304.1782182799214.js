@@ -50205,24 +50205,19 @@ export const words = [
         "category": "Gramática",
         "pt": "isto é / ou seja (conjunção)",
         "it": "cioè",
-        "en": "that is / in other words",
         "pronunciation": {
-            "it": "tcho-é",
-            "en": "that iz in other words / in-oth-er-words"
+            "it": "tcho-é"
         },
         "examples": [
             {
-                "en": "I work three days a week, that is, from Tuesday to Thursday",
                 "it": "Lavoro tre giorni a settimana, cioè dal martedì al giovedì.",
                 "pt": "Trabalho três dias por semana, ou seja, de terça a quinta."
             },
             {
-                "en": "What are you trying to say?",
                 "it": "Cioè, cosa stai cercando di dire?",
                 "pt": "Isto é, o que estás a tentar dizer?"
             },
             {
-                "en": "My mother's brother, that is to say, my uncle",
                 "it": "Il fratello di mia madre, cioè mio zio.",
                 "pt": "O irmão da minha mãe, ou seja, o meu tio."
             }
@@ -50233,24 +50228,19 @@ export const words = [
         "category": "Gramática",
         "pt": "não é que / de forma alguma (partícula adverbial)",
         "it": "mica",
-        "en": "indeed",
         "pronunciation": {
-            "it": "mi-ca",
-            "en": "in-deed"
+            "it": "mi-ca"
         },
         "examples": [
             {
-                "en": "I'm no fool!",
                 "it": "Non sono mica scemo!",
                 "pt": "Não sou nenhum parvo (não sou nada bobo)!"
             },
             {
-                "en": "This pizza isn't bad!",
                 "it": "Mica male questa pizza!",
                 "pt": "Nada má esta pizza!"
             },
             {
-                "en": "It's not raining at all, let’s go",
                 "it": "Non piove mica, andiamo.",
                 "pt": "Não está a chover (coisa nenhuma), vamos."
             }
@@ -50261,24 +50251,19 @@ export const words = [
         "category": "Gramática",
         "pt": "até mesmo (advérbio)",
         "it": "perfino / persino",
-        "en": "even",
         "pronunciation": {
-            "it": "per-fi-no / per-si-no",
-            "en": "ee-vuhn"
+            "it": "per-fi-no / per-si-no"
         },
         "examples": [
             {
-                "en": "It's so cold that it even snowed in the sea",
                 "it": "Fa così freddo che ha nevicato perfino al mare.",
                 "pt": "Faz tanto frio que nevou até mesmo no mar."
             },
             {
-                "en": "He read even all the books in this library",
                 "it": "Ha letto persino tutti i libri di questa biblioteca.",
                 "pt": "Ele leu até mesmo todos os livros desta biblioteca."
             },
             {
-                "en": "Even he started to cry",
                 "it": "Perfino lui si è messo a piangere.",
                 "pt": "Até mesmo ele desatou a chorar."
             }

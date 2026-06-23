@@ -50261,24 +50261,19 @@ export const words = [
         "category": "Gramática",
         "pt": "até mesmo (advérbio)",
         "it": "perfino / persino",
-        "en": "even",
         "pronunciation": {
-            "it": "per-fi-no / per-si-no",
-            "en": "ee-vuhn"
+            "it": "per-fi-no / per-si-no"
         },
         "examples": [
             {
-                "en": "It's so cold that it even snowed in the sea",
                 "it": "Fa così freddo che ha nevicato perfino al mare.",
                 "pt": "Faz tanto frio que nevou até mesmo no mar."
             },
             {
-                "en": "He read even all the books in this library",
                 "it": "Ha letto persino tutti i libri di questa biblioteca.",
                 "pt": "Ele leu até mesmo todos os livros desta biblioteca."
             },
             {
-                "en": "Even he started to cry",
                 "it": "Perfino lui si è messo a piangere.",
                 "pt": "Até mesmo ele desatou a chorar."
             }

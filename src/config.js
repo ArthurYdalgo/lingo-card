@@ -17,13 +17,13 @@ export const appConfig = {
             ttsLang: "it-IT",
             voiceKeywords: ["Alice", "Luca", "Premium", "Enhanced"],
         },
-        // {
-        //     code: "en",
-        //     label: "Inglês",
-        //     flag: flagEN,
-        //     ttsLang: "en-US",
-        //     voiceKeywords: ["Samantha", "Alex", "Premium"],
-        // },
+        {
+            code: "en",
+            label: "Inglês",
+            flag: flagEN,
+            ttsLang: "en-US",
+            voiceKeywords: ["Samantha", "Alex", "Premium"],
+        },
     ],
     defaultTargetLang: "it",
 };
