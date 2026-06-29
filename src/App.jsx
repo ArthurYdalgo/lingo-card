@@ -191,6 +191,7 @@ export default function App() {
     // --- Generic Configurations ---
     const t = translations[appConfig.uiLanguage];
     const nativeKey = appConfig.nativeDataKey;
+    
 
     const [activeLangCode, setActiveLangCode] = useState(
         appConfig.defaultTargetLang,
@@ -511,10 +512,12 @@ export default function App() {
 
     const filteredCategories = useMemo(() => {
         if (!searchQuery) return categories;
-        return categories.filter((c) =>
-            c.toLowerCase().includes(searchQuery.toLowerCase()),
-        );
-    }, [searchQuery]);
+        return categories.filter((cat) => {
+            // Get the translation if it exists, otherwise fall back to the original string
+            const translatedName = t.categories?.[cat] || cat;
+            return translatedName.toLowerCase().includes(searchQuery.toLowerCase());
+        });
+    }, [searchQuery, t.categories]);
 
     const score = Object.values(answers).filter((a) => a === "correct").length;
     const answeredCardsCount = Object.keys(answers).length;
@@ -526,6 +529,7 @@ export default function App() {
         practiceList.length > 0
             ? Math.round((score / practiceList.length) * 100)
             : 0;
+    const translatedCategoryTitle = t.categories?.[selectedCategory] || selectedCategory;
 
     // Active Favorites Logic
     const currentLangFavorites = favorites[activeLangCode] || [];
@@ -632,15 +636,16 @@ export default function App() {
                     </div>
 
                     {filteredCategories.map((cat, index) => {
-                        const count = words.filter(
-                            (w) => w.category === cat,
-                        ).length;
+                        const count = words.filter((w) => w.category === cat).length;
+                        // Translate the card title on the fly
+                        const displayTitle = t.categories?.[cat] || cat;
+
                         return (
                             <div
                                 key={index}
                                 className="category-card"
-                                onClick={() => handleCategorySelect(cat)}>
-                                <span className="cat-title">{cat}</span>
+                                onClick={() => handleCategorySelect(cat)}> {/* Still passes "Aeroporto" to state */}
+                                <span className="cat-title">{displayTitle}</span>
                                 <span className="cat-count">
                                     {count} {t.cardsCount}
                                 </span>
@@ -660,6 +665,8 @@ export default function App() {
                 : selectedCategory === t.allWords
                   ? words.length
                   : words.filter((w) => w.category === selectedCategory).length;
+        
+        const translatedCategoryTitle = t.categories?.[selectedCategory] || selectedCategory;
 
         return (
             <div className="app-container">
@@ -674,7 +681,7 @@ export default function App() {
                             fontSize: "1.2rem",
                             color: "var(--text-light)",
                         }}>
-                        {selectedCategory}
+                        {translatedCategoryTitle}
                     </h2>
                 </header>
 
@@ -828,7 +835,7 @@ export default function App() {
                 <button className="btn-back" onClick={goHome}>
                     ✕ {t.back || "Sair"}
                 </button>
-                <span className="deck-name">{selectedCategory}</span>
+                <span className="deck-name">{translatedCategoryTitle}</span>
                 <span className="card-counter">
                     {currentIndex + 1}/{practiceList.length}
                 </span>
