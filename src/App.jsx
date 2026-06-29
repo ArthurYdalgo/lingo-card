@@ -578,7 +578,7 @@ export default function App() {
                 {/* Updated Header */}
                 <header className="home-header">
                     <div>
-                        <h1>{t.appTitle || "Flashcards"}</h1>
+                        <h2>{t.appTitle || "Flashcards"}</h2>
                     </div>
 
                     <div className="header-actions">
