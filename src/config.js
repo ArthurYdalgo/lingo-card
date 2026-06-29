@@ -8,6 +8,8 @@ export const appConfig = {
     // The native language key in your data schema (e.g., 'pt')
     nativeDataKey: "pt",
 
+    feedbackEmail: 'arthur.ydalgo.dev@gmail.com',
+
     // Available languages to study
     targetLanguages: [
         {

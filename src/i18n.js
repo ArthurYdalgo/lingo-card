@@ -59,6 +59,7 @@ export const translations = {
         stayHere: "Stay here",
         backToMenu: "Back to menu",
         completedSession: "You have finished all the cards in this session",
+        suggestionsAndFeedback: 'Suggestions and Feedback? Send an e-mail!',
         seeTranslation: "See translation",
         hideTranslation: "Hide translation",
         noAudioSupport: "Your browser does not support audio playback.",

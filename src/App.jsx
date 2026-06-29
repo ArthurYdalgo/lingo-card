@@ -653,6 +653,10 @@ export default function App() {
                         );
                     })}
                 </div>
+
+                <div className="feedback-footer">
+                    <span><a href={`mailto:${appConfig.feedbackEmail}`}>{t.suggestionsAndFeedback || `Sugestões e Feedback? Envie um e-mail para ${appConfig.feedbackEmail}`}</a></span>
+                </div>
             </div>
         );
     }

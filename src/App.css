@@ -825,3 +825,8 @@ body {
 .btn-header-circle:hover .flag-svg {
   border-color: var(--accent, #61bed6); /* Lights up blue on hover */
 }
+
+.feedback-footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
