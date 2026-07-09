@@ -395,7 +395,7 @@ export default function App() {
                 {showWelcomeModal && (
                     <div className="modal-overlay">
                         <div className="lang-modal-content">
-                            <h3>Welcome! What is your language?</h3>
+                            <h3>Language / Idioma</h3>
                             <div className="lang-options-container">
                                 {appConfig.languages.map((lang) => (
                                     <button
@@ -843,9 +843,8 @@ export default function App() {
                     )}
                 </div>
             )}
-
             <div className="feedback-footer">
-                <span><a href={`mailto:${appConfig.feedbackEmail}`}>{t.suggestionsAndFeedback}</a></span>
+                <span><a href={`mailto:${appConfig.feedbackEmail}`}>{t.suggestionsAndFeedback || `Suggestions and feedback? Send an e-mail to ${appConfig.feedbackEmail}`}</a></span>
             </div>
         </div>
     );
