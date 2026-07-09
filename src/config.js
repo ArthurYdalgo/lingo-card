@@ -1,31 +1,40 @@
+// config.js
 import flagIT from "../public/it.svg";
 import flagEN from "../public/uk.svg";
+import flagPT from "../public/br.svg";
 
 export const appConfig = {
-    // The UI language
-    uiLanguage: "pt",
-
-    // The native language key in your data schema (e.g., 'pt')
-    nativeDataKey: "pt",
-
     feedbackEmail: 'arthur.ydalgo.dev@gmail.com',
 
-    // Available languages to study
-    targetLanguages: [
+    // All available languages for BOTH native and target selection
+    languages: [
+        {
+            code: "pt",
+            label: "Português",
+            flag: flagPT,
+            ttsLang: "pt-BR",
+            voiceKeywords: ["Luciana", "Thiago", "Premium", "Enhanced"],
+            nativeSalutation: "Eu falo português",
+        },
+        {
+            code: "en",
+            label: "English",
+            flag: flagEN,
+            ttsLang: "en-US",
+            voiceKeywords: ["Samantha", "Alex", "Premium"],
+            nativeSalutation: "I speak English",
+        },
         {
             code: "it",
             label: "Italiano",
             flag: flagIT,
             ttsLang: "it-IT",
             voiceKeywords: ["Alice", "Luca", "Premium", "Enhanced"],
-        },
-        {
-            code: "en",
-            label: "Inglês",
-            flag: flagEN,
-            ttsLang: "en-US",
-            voiceKeywords: ["Samantha", "Alex", "Premium"],
-        },
+            nativeSalutation: "Parlo italiano",
+        }
     ],
-    defaultTargetLang: "it",
+    
+    // Fallbacks
+    defaultTargetLang: "en",
+    defaultNativeLang: "pt",
 };
