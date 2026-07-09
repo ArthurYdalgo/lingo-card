@@ -9,37 +9,154 @@ import { translations } from "./i18n";
 
 // --- Minimalist SVGs ---
 const SearchIcon = () => (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
 );
 const VolumeIcon = () => (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+    <svg
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+    </svg>
 );
 const StarOutline = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+    </svg>
 );
 const StarSolid = () => (
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+    <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+    </svg>
 );
 const RefreshIcon = () => (
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
+    <svg
+        width="16"
+        height="16"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polyline points="1 4 1 10 7 10"></polyline>
+        <polyline points="23 20 23 14 17 14"></polyline>
+        <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path>
+    </svg>
 );
 const ChevronLeft = () => (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+    <svg
+        width="28"
+        height="28"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
 );
 const ChevronRight = () => (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    <svg
+        width="28"
+        height="28"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
 );
 const CheckIcon = ({ size = 24, color = "currentColor" }) => (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
 );
 const XIcon = ({ size = 24, color = "currentColor" }) => (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke={color}
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
 );
 const UndoIcon = ({ size = 20 }) => (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7v6h6"></path><path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path></svg>
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <path d="M3 7v6h6"></path>
+        <path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path>
+    </svg>
 );
 const GearIcon = () => (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+    <svg
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round">
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+    </svg>
 );
 
 // --- Example Component ---
@@ -86,19 +203,33 @@ const ExampleItem = ({ example, activeLangCode, nativeKey, t, playAudio }) => {
 // --- Main App ---
 export default function App() {
     // --- LocalStorage Initialization ---
-    const [nativeLangCode, setNativeLangCode] = useState(() => localStorage.getItem("fc-nativelang"));
-    const [activeLangCode, setActiveLangCode] = useState(() => localStorage.getItem("fc-targetlang") || appConfig.defaultTargetLang);
+    const [nativeLangCode, setNativeLangCode] = useState(() =>
+        localStorage.getItem("fc-nativelang"),
+    );
+    const [activeLangCode, setActiveLangCode] = useState(
+        () =>
+            localStorage.getItem("fc-targetlang") ||
+            appConfig.defaultTargetLang,
+    );
 
     // Safe fallbacks for config references (in case nativeLangCode isn't set yet during initial render)
     const safeNativeLang = nativeLangCode || appConfig.defaultNativeLang;
-    const t = translations[safeNativeLang] || translations['en'];
+    const t = translations[safeNativeLang] || translations["en"];
 
-    const targetLangConfig = appConfig.languages.find((l) => l.code === activeLangCode) || appConfig.languages[0];
-    const nativeLangConfig = appConfig.languages.find((l) => l.code === safeNativeLang) || appConfig.languages[0];
-    const availablePracticeLangs = appConfig.languages.filter(l => l.code !== safeNativeLang);
+    const targetLangConfig =
+        appConfig.languages.find((l) => l.code === activeLangCode) ||
+        appConfig.languages[0];
+    const nativeLangConfig =
+        appConfig.languages.find((l) => l.code === safeNativeLang) ||
+        appConfig.languages[0];
+    const availablePracticeLangs = appConfig.languages.filter(
+        (l) => l.code !== safeNativeLang,
+    );
 
     // --- Onboarding Modals State ---
-    const [showWelcomeModal, setShowWelcomeModal] = useState(!localStorage.getItem("fc-nativelang"));
+    const [showWelcomeModal, setShowWelcomeModal] = useState(
+        !localStorage.getItem("fc-nativelang"),
+    );
     const [showInitialTargetModal, setShowInitialTargetModal] = useState(false);
     const [showInfoModal, setShowInfoModal] = useState(false);
     const [showLangModal, setShowLangModal] = useState(false);
@@ -149,16 +280,29 @@ export default function App() {
 
     // --- Effects ---
     useEffect(() => {
-        if (nativeLangCode) localStorage.setItem("fc-nativelang", nativeLangCode);
+        if (nativeLangCode)
+            localStorage.setItem("fc-nativelang", nativeLangCode);
         localStorage.setItem("fc-targetlang", activeLangCode);
     }, [nativeLangCode, activeLangCode]);
 
-    useEffect(() => { localStorage.setItem("fc-favorites", JSON.stringify(favorites)); }, [favorites]);
-    useEffect(() => { localStorage.setItem("fc-autoplay", JSON.stringify(autoPlay)); }, [autoPlay]);
-    useEffect(() => { localStorage.setItem("fc-retrymode", JSON.stringify(retryMode)); }, [retryMode]);
-    useEffect(() => { localStorage.setItem("fc-writemode", JSON.stringify(writeMode)); }, [writeMode]);
-    useEffect(() => { localStorage.setItem("fc-submitonenter", JSON.stringify(submitOnEnter)); }, [submitOnEnter]);
-    useEffect(() => { localStorage.setItem("fc-reversemode", JSON.stringify(reverseMode)); }, [reverseMode]);
+    useEffect(() => {
+        localStorage.setItem("fc-favorites", JSON.stringify(favorites));
+    }, [favorites]);
+    useEffect(() => {
+        localStorage.setItem("fc-autoplay", JSON.stringify(autoPlay));
+    }, [autoPlay]);
+    useEffect(() => {
+        localStorage.setItem("fc-retrymode", JSON.stringify(retryMode));
+    }, [retryMode]);
+    useEffect(() => {
+        localStorage.setItem("fc-writemode", JSON.stringify(writeMode));
+    }, [writeMode]);
+    useEffect(() => {
+        localStorage.setItem("fc-submitonenter", JSON.stringify(submitOnEnter));
+    }, [submitOnEnter]);
+    useEffect(() => {
+        localStorage.setItem("fc-reversemode", JSON.stringify(reverseMode));
+    }, [reverseMode]);
 
     useEffect(() => {
         loadVoices();
@@ -169,17 +313,19 @@ export default function App() {
     }, []);
 
     const playAudio = useCallback(
-        (text) => { speakText(text, targetLangConfig, t); },
+        (text) => {
+            speakText(text, targetLangConfig, t);
+        },
         [targetLangConfig, t],
     );
 
     // Handles Step 1 of onboarding (Native Lang Selection)
     const handleNativeSelection = (code) => {
         setNativeLangCode(code);
-        
+
         // Prevent targeting your own native language by default
         if (activeLangCode === code) {
-            const nextTarget = appConfig.languages.find(l => l.code !== code);
+            const nextTarget = appConfig.languages.find((l) => l.code !== code);
             if (nextTarget) setActiveLangCode(nextTarget.code);
         }
 
@@ -190,27 +336,46 @@ export default function App() {
     // --- Keybindings ---
     const handleKeyDown = useCallback(
         (e) => {
-            if (view !== "practice" || isTransitioning || showCompletionModal) return;
+            if (view !== "practice" || isTransitioning || showCompletionModal)
+                return;
             if (e.target.tagName === "INPUT") return;
 
             if (e.code === "Space") {
                 e.preventDefault();
                 if (!isRevealed) handleRevealCard();
             } else if (e.code === "ArrowRight") {
-                if (isRevealed && !answers[practiceList[currentIndex]?.id + "-" + currentIndex]) {
+                if (
+                    isRevealed &&
+                    !answers[
+                        practiceList[currentIndex]?.id + "-" + currentIndex
+                    ]
+                ) {
                     handleAnswer("correct");
                 } else if (isRevealed) {
                     nextCard();
                 }
             } else if (e.code === "ArrowLeft") {
-                if (isRevealed && !answers[practiceList[currentIndex]?.id + "-" + currentIndex]) {
+                if (
+                    isRevealed &&
+                    !answers[
+                        practiceList[currentIndex]?.id + "-" + currentIndex
+                    ]
+                ) {
                     handleAnswer("incorrect");
                 } else if (isRevealed) {
                     prevCard();
                 }
             }
         },
-        [view, isRevealed, answers, currentIndex, practiceList, isTransitioning, showCompletionModal],
+        [
+            view,
+            isRevealed,
+            answers,
+            currentIndex,
+            practiceList,
+            isTransitioning,
+            showCompletionModal,
+        ],
     );
 
     useEffect(() => {
@@ -244,11 +409,15 @@ export default function App() {
         const currentLangFavorites = favorites[activeLangCode] || [];
 
         if (selectedCategory === t.favorites) {
-            filteredWords = words.filter((w) => currentLangFavorites.includes(w.id));
+            filteredWords = words.filter((w) =>
+                currentLangFavorites.includes(w.id),
+            );
         } else if (selectedCategory === t.allWords) {
             filteredWords = [...words];
         } else {
-            filteredWords = words.filter((w) => w.category === selectedCategory);
+            filteredWords = words.filter(
+                (w) => w.category === selectedCategory,
+            );
         }
 
         if (filteredWords.length === 0) {
@@ -274,7 +443,8 @@ export default function App() {
         if (isTransitioning) return;
         setIsRevealed(true);
         if (autoPlay) {
-            const currentWordTargetText = practiceList[currentIndex][activeLangCode];
+            const currentWordTargetText =
+                practiceList[currentIndex][activeLangCode];
             playAudio(currentWordTargetText);
         }
     };
@@ -321,9 +491,17 @@ export default function App() {
         setFavorites((prev) => {
             const currentLangFavs = prev[activeLangCode] || [];
             if (currentLangFavs.includes(wordId)) {
-                return { ...prev, [activeLangCode]: currentLangFavs.filter((id) => id !== wordId) };
+                return {
+                    ...prev,
+                    [activeLangCode]: currentLangFavs.filter(
+                        (id) => id !== wordId,
+                    ),
+                };
             } else {
-                return { ...prev, [activeLangCode]: [...currentLangFavs, wordId] };
+                return {
+                    ...prev,
+                    [activeLangCode]: [...currentLangFavs, wordId],
+                };
             }
         });
     };
@@ -369,7 +547,10 @@ export default function App() {
         });
 
         if (status === "incorrect" && retryMode) {
-            setPracticeList((prev) => [...prev, { ...currentWord, _recycledKey: Date.now() }]);
+            setPracticeList((prev) => [
+                ...prev,
+                { ...currentWord, _recycledKey: Date.now() },
+            ]);
         }
     };
 
@@ -377,14 +558,22 @@ export default function App() {
         if (!searchQuery) return categories;
         return categories.filter((cat) => {
             const translatedName = t.categories?.[cat] || cat;
-            return translatedName.toLowerCase().includes(searchQuery.toLowerCase());
+            return translatedName
+                .toLowerCase()
+                .includes(searchQuery.toLowerCase());
         });
     }, [searchQuery, t.categories]);
 
     const score = Object.values(answers).filter((a) => a === "correct").length;
     const answeredCardsCount = Object.keys(answers).length;
-    const progressPercent = practiceList.length > 0 ? Math.round((answeredCardsCount / practiceList.length) * 100) : 0;
-    const scorePercent = practiceList.length > 0 ? Math.round((score / practiceList.length) * 100) : 0;
+    const progressPercent =
+        practiceList.length > 0
+            ? Math.round((answeredCardsCount / practiceList.length) * 100)
+            : 0;
+    const scorePercent =
+        practiceList.length > 0
+            ? Math.round((score / practiceList.length) * 100)
+            : 0;
     const currentLangFavorites = favorites[activeLangCode] || [];
 
     // --- HOME VIEW ---
@@ -401,11 +590,19 @@ export default function App() {
                                     <button
                                         key={lang.code}
                                         className="lang-option-btn"
-                                        onClick={() => handleNativeSelection(lang.code)}>
+                                        onClick={() =>
+                                            handleNativeSelection(lang.code)
+                                        }>
                                         <span className="lang-option-flag">
-                                            <img src={lang.flag} alt={lang.label} className="flag-svg" />
+                                            <img
+                                                src={lang.flag}
+                                                alt={lang.label}
+                                                className="flag-svg"
+                                            />
                                         </span>
-                                        <span className="lang-option-label">{lang.nativeSalutation}</span>
+                                        <span className="lang-option-label">
+                                            {lang.nativeSalutation}
+                                        </span>
                                     </button>
                                 ))}
                             </div>
@@ -429,9 +626,15 @@ export default function App() {
                                             setShowInfoModal(true); // Open Step 3: Show the tip
                                         }}>
                                         <span className="lang-option-flag">
-                                            <img src={lang.flag} alt={lang.label} className="flag-svg" />
+                                            <img
+                                                src={lang.flag}
+                                                alt={lang.label}
+                                                className="flag-svg"
+                                            />
                                         </span>
-                                        <span className="lang-option-label">{lang.label}</span>
+                                        <span className="lang-option-label">
+                                            {lang.label}
+                                        </span>
                                     </button>
                                 ))}
                             </div>
@@ -441,11 +644,23 @@ export default function App() {
 
                 {/* 3. Info Modal (Introduces Settings Gear after onboarding) */}
                 {showInfoModal && (
-                    <div className="modal-overlay" onClick={() => setShowInfoModal(false)}>
-                        <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                            <h2 style={{fontSize: '3rem', margin: '0 0 16px 0'}}>💡</h2>
+                    <div
+                        className="modal-overlay"
+                        onClick={() => setShowInfoModal(false)}>
+                        <div
+                            className="modal-content"
+                            onClick={(e) => e.stopPropagation()}>
+                            <h2
+                                style={{
+                                    fontSize: "3rem",
+                                    margin: "0 0 16px 0",
+                                }}>
+                                💡
+                            </h2>
                             <p>{t.infoModalText}</p>
-                            <button className="btn-modal-primary" onClick={() => setShowInfoModal(false)}>
+                            <button
+                                className="btn-modal-primary"
+                                onClick={() => setShowInfoModal(false)}>
                                 {t.gotIt}
                             </button>
                         </div>
@@ -454,8 +669,12 @@ export default function App() {
 
                 {/* Settings Modal (Change Native Lang from menu) */}
                 {showSettingsModal && (
-                    <div className="modal-overlay" onClick={() => setShowSettingsModal(false)}>
-                        <div className="lang-modal-content" onClick={(e) => e.stopPropagation()}>
+                    <div
+                        className="modal-overlay"
+                        onClick={() => setShowSettingsModal(false)}>
+                        <div
+                            className="lang-modal-content"
+                            onClick={(e) => e.stopPropagation()}>
                             <h3>{t.selectNativeLanguage}</h3>
                             <div className="lang-options-container">
                                 {appConfig.languages.map((lang) => (
@@ -465,19 +684,35 @@ export default function App() {
                                         onClick={() => {
                                             setNativeLangCode(lang.code);
                                             if (activeLangCode === lang.code) {
-                                                const nextTarget = appConfig.languages.find(l => l.code !== lang.code);
-                                                setActiveLangCode(nextTarget.code);
+                                                const nextTarget =
+                                                    appConfig.languages.find(
+                                                        (l) =>
+                                                            l.code !==
+                                                            lang.code,
+                                                    );
+                                                setActiveLangCode(
+                                                    nextTarget.code,
+                                                );
                                             }
                                             setShowSettingsModal(false);
                                         }}>
                                         <span className="lang-option-flag">
-                                            <img src={lang.flag} alt={lang.label} className="flag-svg" />
+                                            <img
+                                                src={lang.flag}
+                                                alt={lang.label}
+                                                className="flag-svg"
+                                            />
                                         </span>
-                                        <span className="lang-option-label">{lang.nativeSalutation}</span>
+                                        <span className="lang-option-label">
+                                            {lang.nativeSalutation}
+                                        </span>
                                     </button>
                                 ))}
                             </div>
-                            <button className="btn-modal-secondary" onClick={() => setShowSettingsModal(false)} style={{marginTop: '16px'}}>
+                            <button
+                                className="btn-modal-secondary"
+                                onClick={() => setShowSettingsModal(false)}
+                                style={{ marginTop: "16px" }}>
                                 {t.back}
                             </button>
                         </div>
@@ -486,8 +721,12 @@ export default function App() {
 
                 {/* Target Language Modal (What to practice from menu) */}
                 {showLangModal && (
-                    <div className="modal-overlay" onClick={() => setShowLangModal(false)}>
-                        <div className="lang-modal-content" onClick={(e) => e.stopPropagation()}>
+                    <div
+                        className="modal-overlay"
+                        onClick={() => setShowLangModal(false)}>
+                        <div
+                            className="lang-modal-content"
+                            onClick={(e) => e.stopPropagation()}>
                             <h3>{t.selectLanguage}</h3>
                             <div className="lang-options-container">
                                 {availablePracticeLangs.map((lang) => (
@@ -499,13 +738,22 @@ export default function App() {
                                             setShowLangModal(false);
                                         }}>
                                         <span className="lang-option-flag">
-                                            <img src={lang.flag} alt={lang.label} className="flag-svg" />
+                                            <img
+                                                src={lang.flag}
+                                                alt={lang.label}
+                                                className="flag-svg"
+                                            />
                                         </span>
-                                        <span className="lang-option-label">{lang.label}</span>
+                                        <span className="lang-option-label">
+                                            {lang.label}
+                                        </span>
                                     </button>
                                 ))}
                             </div>
-                            <button className="btn-modal-secondary" onClick={() => setShowLangModal(false)} style={{marginTop: '16px'}}>
+                            <button
+                                className="btn-modal-secondary"
+                                onClick={() => setShowLangModal(false)}
+                                style={{ marginTop: "16px" }}>
                                 {t.back}
                             </button>
                         </div>
@@ -528,7 +776,11 @@ export default function App() {
                                 className="btn-header-circle"
                                 onClick={() => setShowLangModal(true)}
                                 title={t.changeLanguage}>
-                                <img src={targetLangConfig.flag} alt="Language Flag" className="flag-svg" />
+                                <img
+                                    src={targetLangConfig.flag}
+                                    alt="Language Flag"
+                                    className="flag-svg"
+                                />
                             </button>
                         )}
                         <button
@@ -551,30 +803,51 @@ export default function App() {
                 </div>
 
                 <div className="categories-grid">
-                    <div className="category-card special" onClick={() => handleCategorySelect(t.allWords)}>
+                    <div
+                        className="category-card special"
+                        onClick={() => handleCategorySelect(t.allWords)}>
                         <span className="cat-title">{t.allWords}</span>
-                        <span className="cat-count">{words.length} {t.cardsCount}</span>
+                        <span className="cat-count">
+                            {words.length} {t.cardsCount}
+                        </span>
                     </div>
-                    <div className="category-card special" onClick={() => handleCategorySelect(t.favorites)}>
+                    <div
+                        className="category-card special"
+                        onClick={() => handleCategorySelect(t.favorites)}>
                         <span className="cat-title">{t.favorites}</span>
-                        <span className="cat-count">{currentLangFavorites.length} {t.cardsCount}</span>
+                        <span className="cat-count">
+                            {currentLangFavorites.length} {t.cardsCount}
+                        </span>
                     </div>
 
                     {filteredCategories.map((cat, index) => {
-                        const count = words.filter((w) => w.category === cat).length;
+                        const count = words.filter(
+                            (w) => w.category === cat,
+                        ).length;
                         const displayTitle = t.categories?.[cat] || cat;
 
                         return (
-                            <div key={index} className="category-card" onClick={() => handleCategorySelect(cat)}>
-                                <span className="cat-title">{displayTitle}</span>
-                                <span className="cat-count">{count} {t.cardsCount}</span>
+                            <div
+                                key={index}
+                                className="category-card"
+                                onClick={() => handleCategorySelect(cat)}>
+                                <span className="cat-title">
+                                    {displayTitle}
+                                </span>
+                                <span className="cat-count">
+                                    {count} {t.cardsCount}
+                                </span>
                             </div>
                         );
                     })}
                 </div>
 
                 <div className="feedback-footer">
-                    <span><a href={`mailto:${appConfig.feedbackEmail}`}>{t.suggestionsAndFeedback}</a></span>
+                    <span>
+                        <a href={`mailto:${appConfig.feedbackEmail}`}>
+                            {t.suggestionsAndFeedback}
+                        </a>
+                    </span>
                 </div>
             </div>
         );
@@ -582,19 +855,29 @@ export default function App() {
 
     // --- SETUP VIEW ---
     if (view === "setup") {
-        let availableWordsCount = selectedCategory === t.favorites
+        let availableWordsCount =
+            selectedCategory === t.favorites
                 ? currentLangFavorites.length
                 : selectedCategory === t.allWords
                   ? words.length
                   : words.filter((w) => w.category === selectedCategory).length;
-        
-        const translatedCategoryTitle = t.categories?.[selectedCategory] || selectedCategory;
+
+        const translatedCategoryTitle =
+            t.categories?.[selectedCategory] || selectedCategory;
 
         return (
             <div className="app-container">
                 <header style={{ display: "flex", alignItems: "center" }}>
-                    <button className="btn-back" onClick={goHome}>←</button>
-                    <h2 style={{ margin: 0, textTransform: "uppercase", fontSize: "1.2rem", color: "var(--text-light)" }}>
+                    <button className="btn-back" onClick={goHome}>
+                        ←
+                    </button>
+                    <h2
+                        style={{
+                            margin: 0,
+                            textTransform: "uppercase",
+                            fontSize: "1.2rem",
+                            color: "var(--text-light)",
+                        }}>
                         {translatedCategoryTitle}
                     </h2>
                 </header>
@@ -602,42 +885,78 @@ export default function App() {
                 <div className="setup-container" style={{ marginTop: "32px" }}>
                     <h3>{t.howManyCards}</h3>
                     <p style={{ color: "var(--text-light)", marginTop: "8px" }}>
-                        <strong>{availableWordsCount}</strong> {t.availableCards}
+                        <strong>{availableWordsCount}</strong>{" "}
+                        {t.availableCards}
                     </p>
                     <input
                         type="number"
                         className="setup-input"
                         value={numWordsToPractice}
-                        onChange={(e) => setNumWordsToPractice(parseInt(e.target.value, 10) || "")}
+                        onChange={(e) =>
+                            setNumWordsToPractice(
+                                parseInt(e.target.value, 10) || "",
+                            )
+                        }
                         min="1"
                         max={availableWordsCount}
                     />
 
                     <div className="settings-toggles">
                         <label className="toggle-label">
-                            <input type="checkbox" checked={autoPlay} onChange={(e) => setAutoPlay(e.target.checked)} />
+                            <input
+                                type="checkbox"
+                                checked={autoPlay}
+                                onChange={(e) => setAutoPlay(e.target.checked)}
+                            />
                             {t.autoPlayAudio} ({targetLangConfig.label})
                         </label>
                         <label className="toggle-label">
-                            <input type="checkbox" checked={retryMode} onChange={(e) => setRetryMode(e.target.checked)} />
+                            <input
+                                type="checkbox"
+                                checked={retryMode}
+                                onChange={(e) => setRetryMode(e.target.checked)}
+                            />
                             {t.retryMode}
                         </label>
                         <label className="toggle-label">
-                            <input type="checkbox" checked={reverseMode} onChange={(e) => {
-                                setReverseMode(e.target.checked);
-                                if (e.target.checked) setWriteMode(false);
-                            }} />
+                            <input
+                                type="checkbox"
+                                checked={reverseMode}
+                                onChange={(e) => {
+                                    setReverseMode(e.target.checked);
+                                    if (e.target.checked) setWriteMode(false);
+                                }}
+                            />
                             {t.reverseMode}
                         </label>
                         {!reverseMode && (
                             <>
                                 <label className="toggle-label">
-                                    <input type="checkbox" checked={writeMode} onChange={(e) => setWriteMode(e.target.checked)} />
+                                    <input
+                                        type="checkbox"
+                                        checked={writeMode}
+                                        onChange={(e) =>
+                                            setWriteMode(e.target.checked)
+                                        }
+                                    />
                                     {t.writeMode}
                                 </label>
                                 {writeMode && (
-                                    <label className="toggle-label" style={{ paddingLeft: "28px", opacity: 0.8 }}>
-                                        <input type="checkbox" checked={submitOnEnter} onChange={(e) => setSubmitOnEnter(e.target.checked)} />
+                                    <label
+                                        className="toggle-label"
+                                        style={{
+                                            paddingLeft: "28px",
+                                            opacity: 0.8,
+                                        }}>
+                                        <input
+                                            type="checkbox"
+                                            checked={submitOnEnter}
+                                            onChange={(e) =>
+                                                setSubmitOnEnter(
+                                                    e.target.checked,
+                                                )
+                                            }
+                                        />
                                         {t.revealEnter}
                                     </label>
                                 )}
@@ -664,7 +983,8 @@ export default function App() {
     const isFavorite = currentLangFavorites.includes(currentWord?.id);
     const currentAnswerKey = currentWord?.id + "-" + currentIndex;
     const currentAnswer = answers[currentAnswerKey];
-    const translatedCategoryTitle = t.categories?.[selectedCategory] || selectedCategory;
+    const translatedCategoryTitle =
+        t.categories?.[selectedCategory] || selectedCategory;
 
     return (
         <div className="app-container practice-view">
@@ -676,73 +996,133 @@ export default function App() {
                         <div className="modal-stats">
                             <div className="stat-box">
                                 <span className="stat-value">{score}</span>
-                                <span className="stat-label">{t.correctHits}</span>
+                                <span className="stat-label">
+                                    {t.correctHits}
+                                </span>
                             </div>
                             <div className="stat-box">
-                                <span className="stat-value">{scorePercent}%</span>
+                                <span className="stat-value">
+                                    {scorePercent}%
+                                </span>
                                 <span className="stat-label">{t.accuracy}</span>
                             </div>
                         </div>
                         <div className="modal-buttons">
-                            <button className="btn-modal-secondary" onClick={() => setShowCompletionModal(false)}>{t.stayHere}</button>
-                            <button className="btn-modal-primary" onClick={goHome}>{t.backToMenu}</button>
+                            <button
+                                className="btn-modal-secondary"
+                                onClick={() => setShowCompletionModal(false)}>
+                                {t.stayHere}
+                            </button>
+                            <button
+                                className="btn-modal-primary"
+                                onClick={goHome}>
+                                {t.backToMenu}
+                            </button>
                         </div>
                     </div>
                 </div>
             )}
 
             <header className="practice-header">
-                <button className="btn-back" onClick={goHome}>✕ {t.back}</button>
+                <button className="btn-back" onClick={goHome}>
+                    ✕ {t.back}
+                </button>
                 <span className="deck-name">{translatedCategoryTitle}</span>
-                <span className="card-counter">{currentIndex + 1}/{practiceList.length}</span>
+                <span className="card-counter">
+                    {currentIndex + 1}/{practiceList.length}
+                </span>
             </header>
 
             <div className="progress-section">
                 <div className="progress-track">
-                    <div className="progress-fill" style={{ width: `${progressPercent}%` }}></div>
+                    <div
+                        className="progress-fill"
+                        style={{ width: `${progressPercent}%` }}></div>
                 </div>
                 <div className="progress-stats">
                     <span></span>
                     <div style={{ display: "flex", gap: "12px" }}>
-                        <span>{score} {t.correctHits}</span>
-                        <span style={{ color: "var(--accent)", fontWeight: "bold" }}>{scorePercent}%</span>
+                        <span>
+                            {score} {t.correctHits}
+                        </span>
+                        <span
+                            style={{
+                                color: "var(--accent)",
+                                fontWeight: "bold",
+                            }}>
+                            {scorePercent}%
+                        </span>
                     </div>
                 </div>
             </div>
 
             <div className="card-nav-wrapper">
-                <button className="chevron-btn" onClick={prevCard} disabled={currentIndex === 0 || isTransitioning}>
+                <button
+                    className="chevron-btn"
+                    onClick={prevCard}
+                    disabled={currentIndex === 0 || isTransitioning}>
                     <ChevronLeft />
                 </button>
 
-                <div className={`flip-container ${isRevealed ? "revealed" : ""}`} onClick={() => !isRevealed && handleRevealCard()}>
+                <div
+                    className={`flip-container ${isRevealed ? "revealed" : ""}`}
+                    onClick={() => !isRevealed && handleRevealCard()}>
                     <div className="flip-inner">
                         <div className="flip-front">
                             <div className="card-top-bar">
                                 <div className="status-indicator">
-                                    {currentAnswer === "correct" && <CheckIcon size={24} color="var(--accent)" />}
-                                    {currentAnswer === "incorrect" && <XIcon size={24} color="var(--danger)" />}
+                                    {currentAnswer === "correct" && (
+                                        <CheckIcon
+                                            size={24}
+                                            color="var(--accent)"
+                                        />
+                                    )}
+                                    {currentAnswer === "incorrect" && (
+                                        <XIcon
+                                            size={24}
+                                            color="var(--danger)"
+                                        />
+                                    )}
                                 </div>
-                                <button className="fav-btn" onClick={(e) => { e.stopPropagation(); toggleFavorite(currentWord.id); }}>
-                                    {isFavorite ? <StarSolid /> : <StarOutline />}
+                                <button
+                                    className="fav-btn"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        toggleFavorite(currentWord.id);
+                                    }}>
+                                    {isFavorite ? (
+                                        <StarSolid />
+                                    ) : (
+                                        <StarOutline />
+                                    )}
                                 </button>
                             </div>
 
                             <div className="card-content">
                                 <span className="lang-overline">
-                                    {reverseMode ? targetLangConfig.label.toUpperCase() : nativeLangConfig.label.toUpperCase()}
+                                    {reverseMode
+                                        ? targetLangConfig.label.toUpperCase()
+                                        : nativeLangConfig.label.toUpperCase()}
                                 </span>
-                                <h2 className="word-main-pt">{reverseMode ? targetWord : nativeWord}</h2>
+                                <h2 className="word-main-pt">
+                                    {reverseMode ? targetWord : nativeWord}
+                                </h2>
                                 {writeMode && !reverseMode && (
                                     <input
                                         type="text"
                                         className="write-input"
                                         placeholder={`...`}
                                         value={userTranslation}
-                                        onChange={(e) => setUserTranslation(e.target.value)}
+                                        onChange={(e) =>
+                                            setUserTranslation(e.target.value)
+                                        }
                                         onClick={(e) => e.stopPropagation()}
                                         onKeyDown={(e) => {
-                                            if (e.key === "Enter" && submitOnEnter && !isRevealed) {
+                                            if (
+                                                e.key === "Enter" &&
+                                                submitOnEnter &&
+                                                !isRevealed
+                                            ) {
                                                 e.stopPropagation();
                                                 handleRevealCard();
                                             }
@@ -758,19 +1138,37 @@ export default function App() {
 
                         <div className="flip-back">
                             <div className="card-top-bar">
-                                <button className="audio-btn" onClick={(e) => { e.stopPropagation(); playAudio(targetWord); }}>
+                                <button
+                                    className="audio-btn"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        playAudio(targetWord);
+                                    }}>
                                     <VolumeIcon />
                                 </button>
-                                <button className="fav-btn" onClick={(e) => { e.stopPropagation(); toggleFavorite(currentWord.id); }}>
-                                    {isFavorite ? <StarSolid /> : <StarOutline />}
+                                <button
+                                    className="fav-btn"
+                                    onClick={(e) => {
+                                        e.stopPropagation();
+                                        toggleFavorite(currentWord.id);
+                                    }}>
+                                    {isFavorite ? (
+                                        <StarSolid />
+                                    ) : (
+                                        <StarOutline />
+                                    )}
                                 </button>
                             </div>
 
                             <div className="card-content">
-                                <span className="lang-overline" style={{ opacity: 0.8, color: "#e5e7eb" }}>
+                                <span
+                                    className="lang-overline"
+                                    style={{ opacity: 0.8, color: "#e5e7eb" }}>
                                     {reverseMode ? targetWord : nativeWord}
                                 </span>
-                                <h2 className="word-main-it">{reverseMode ? nativeWord : targetWord}</h2>
+                                <h2 className="word-main-it">
+                                    {reverseMode ? nativeWord : targetWord}
+                                </h2>
 
                                 {pronunciationText && (
                                     <span className="pronunciation-text">
@@ -778,35 +1176,67 @@ export default function App() {
                                     </span>
                                 )}
 
-                                {writeMode && !reverseMode && userTranslation && (
-                                    <div className="user-answer-check">
-                                        <span className="lang-overline" style={{ opacity: 0.8, color: "#e5e7eb" }}>
-                                            {t.yourAnswer}:
-                                        </span>
-                                        <span style={{ fontSize: "1.2rem", fontWeight: "bold" }}>
-                                            {userTranslation}
-                                        </span>
-                                    </div>
-                                )}
+                                {writeMode &&
+                                    !reverseMode &&
+                                    userTranslation && (
+                                        <div className="user-answer-check">
+                                            <span
+                                                className="lang-overline"
+                                                style={{
+                                                    opacity: 0.8,
+                                                    color: "#e5e7eb",
+                                                }}>
+                                                {t.yourAnswer}:
+                                            </span>
+                                            <span
+                                                style={{
+                                                    fontSize: "1.2rem",
+                                                    fontWeight: "bold",
+                                                }}>
+                                                {userTranslation}
+                                            </span>
+                                        </div>
+                                    )}
                             </div>
 
                             <div className="card-eval-footer">
                                 {!currentAnswer ? (
                                     <div className="eval-result-inline">
-                                        <button className="btn-eval-icon text-incorrect" onClick={(e) => { e.stopPropagation(); handleAnswer("incorrect"); }}>
+                                        <button
+                                            className="btn-eval-icon text-incorrect"
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                handleAnswer("incorrect");
+                                            }}>
                                             <XIcon size={24} />
                                         </button>
-                                        <button className="btn-eval-icon text-correct" onClick={(e) => { e.stopPropagation(); handleAnswer("correct"); }}>
+                                        <button
+                                            className="btn-eval-icon text-correct"
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                handleAnswer("correct");
+                                            }}>
                                             <CheckIcon size={24} />
                                         </button>
                                     </div>
                                 ) : (
                                     <div className="eval-result-inline">
-                                        <button className="btn-undo-icon" onClick={(e) => { e.stopPropagation(); handleAnswer(null); }} title={t.undo || "Undo"}>
+                                        <button
+                                            className="btn-undo-icon"
+                                            onClick={(e) => {
+                                                e.stopPropagation();
+                                                handleAnswer(null);
+                                            }}
+                                            title={t.undo || "Undo"}>
                                             <UndoIcon size={20} />
                                         </button>
-                                        <span className={`eval-result-icon ${currentAnswer === "correct" ? "text-correct" : "text-incorrect"}`}>
-                                            {currentAnswer === "correct" ? <CheckIcon size={24} /> : <XIcon size={24} />}
+                                        <span
+                                            className={`eval-result-icon ${currentAnswer === "correct" ? "text-correct" : "text-incorrect"}`}>
+                                            {currentAnswer === "correct" ? (
+                                                <CheckIcon size={24} />
+                                            ) : (
+                                                <XIcon size={24} />
+                                            )}
                                         </span>
                                         <div className="eval-spacer"></div>
                                     </div>
@@ -816,35 +1246,64 @@ export default function App() {
                     </div>
                 </div>
 
-                <button className="chevron-btn" onClick={nextCard} disabled={currentIndex === practiceList.length - 1 || isTransitioning}>
+                <button
+                    className="chevron-btn"
+                    onClick={nextCard}
+                    disabled={
+                        currentIndex === practiceList.length - 1 ||
+                        isTransitioning
+                    }>
                     <ChevronRight />
                 </button>
             </div>
 
             {isRevealed && (
                 <div className="reveal-content visible">
-                    {currentWord.examples && currentWord.examples.length > 0 && (
-                        <div className="examples-container">
-                            {!showExamples ? (
-                                <>
-                                    <ExampleItem example={currentWord.examples[0]} activeLangCode={activeLangCode} nativeKey={safeNativeLang} t={t} playAudio={playAudio} />
-                                    {currentWord.examples.length > 1 && (
-                                        <button className="btn-secondary" onClick={() => setShowExamples(true)}>
-                                            {t.seeMoreExamples}
-                                        </button>
-                                    )}
-                                </>
-                            ) : (
-                                currentWord.examples.map((ex, idx) => (
-                                    <ExampleItem key={idx} example={ex} activeLangCode={activeLangCode} nativeKey={safeNativeLang} t={t} playAudio={playAudio} />
-                                ))
-                            )}
-                        </div>
-                    )}
+                    {currentWord.examples &&
+                        currentWord.examples.length > 0 && (
+                            <div className="examples-container">
+                                {!showExamples ? (
+                                    <>
+                                        <ExampleItem
+                                            example={currentWord.examples[0]}
+                                            activeLangCode={activeLangCode}
+                                            nativeKey={safeNativeLang}
+                                            t={t}
+                                            playAudio={playAudio}
+                                        />
+                                        {currentWord.examples.length > 1 && (
+                                            <button
+                                                className="btn-secondary"
+                                                onClick={() =>
+                                                    setShowExamples(true)
+                                                }>
+                                                {t.seeMoreExamples}
+                                            </button>
+                                        )}
+                                    </>
+                                ) : (
+                                    currentWord.examples.map((ex, idx) => (
+                                        <ExampleItem
+                                            key={idx}
+                                            example={ex}
+                                            activeLangCode={activeLangCode}
+                                            nativeKey={safeNativeLang}
+                                            t={t}
+                                            playAudio={playAudio}
+                                        />
+                                    ))
+                                )}
+                            </div>
+                        )}
                 </div>
             )}
             <div className="feedback-footer">
-                <span><a href={`mailto:${appConfig.feedbackEmail}`}>{t.suggestionsAndFeedback || `Suggestions and feedback? Send an e-mail to ${appConfig.feedbackEmail}`}</a></span>
+                <span>
+                    <a href={`mailto:${appConfig.feedbackEmail}`}>
+                        {t.suggestionsAndFeedback ||
+                            `Suggestions and feedback? Send an e-mail to ${appConfig.feedbackEmail}`}
+                    </a>
+                </span>
             </div>
         </div>
     );
